@@ -14,8 +14,9 @@ public class DiscountServiceImpl implements DiscountService {
 
 	@Override
 	public BigDecimal discountCalculation(User user, Bill bill) {
+		
 		AppUtils utils = new AppUtils();
-
+		
         BigDecimal totalAmount = utils.calculateTotal(bill.getItems());
         BigDecimal groceryAmount = utils.calculateTotalPerType(bill.getItems(), ItemType.GROCERY);
         BigDecimal nonGroceryAmount = totalAmount.subtract(groceryAmount);

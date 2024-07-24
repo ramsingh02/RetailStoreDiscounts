@@ -52,9 +52,16 @@ To execute the unit tests against the business logic service classes please run 
 mvn test
 ```
 
-## Results:
-
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+## Code coverage Results:
+-------------------------------
+		Package	         |   Coverage
+-------------------------------
+		all classes	      		97.40%
+-------------------------------
+		src/main/java	  	99.20%
+-------------------------------
+		src/test/java	  	96.40%
+-------------------------------
 
 
 ## Using

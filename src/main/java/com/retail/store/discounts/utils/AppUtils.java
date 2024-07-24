@@ -11,7 +11,6 @@ import com.retail.store.discounts.entity.ItemType;
 import com.retail.store.discounts.entity.User;
 import com.retail.store.discounts.entity.UserType;
 
-
 public class AppUtils {
 
 	public BigDecimal calculateTotal(List<Item> items) {
