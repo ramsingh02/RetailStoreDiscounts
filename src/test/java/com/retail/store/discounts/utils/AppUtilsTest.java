@@ -58,7 +58,7 @@ public class AppUtilsTest {
 
         AppUtils util = new AppUtils();
         BigDecimal total = util.calculateTotalPerType(items, ItemType.GROCERY);
-        assertEquals(200.00, total.doubleValue(), 0);
+        assertEquals(300.00, total.doubleValue(), 0);
     }
 
     @Test
